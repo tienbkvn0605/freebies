@@ -19,16 +19,18 @@ a {
     text-decoration: none;
 }
 .button {
+    cursor: pointer;
     padding: 15px 77px;
     border-radius: 10px;
     color: white;
     width: fit-content;
+    
     &-primary{
         background-color: $primary-color;
         font-weight: bold;
     }
     &-shadow {
-        box-shadow: inherit 0px 7px 29px 0px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 }
 .text {
