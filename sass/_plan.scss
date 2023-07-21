@@ -1,0 +1,44 @@
+.plan {
+    margin-top: 200px;
+    &-container{
+        padding-top: 80px;
+        text-align: center;
+    }
+    &-title {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    &-list {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 50px;
+    }
+    &-item {
+        border-radius: 10px;
+        border: 1px solid #DDDDDD;
+        padding: 70px 70px 50px 70px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &-title{
+            margin-bottom: 30px;
+        }
+        &-desc {
+            margin-bottom: 10px;
+            text-align: left;
+            &:before{
+                content: "123";
+                background-image: url("/landing/freebies/images/jam_check.png") ;
+                width: 30px;
+                height: 30px;
+                width: 100%;
+            }
+        }
+    }
+    &-images {
+        margin-bottom: 30px;
+    }
+}

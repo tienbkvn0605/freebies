@@ -1,0 +1,31 @@
+.footer {
+    margin-bottom: 80px;
+    padding-top: 250px;
+    background-color: #F8F8F8;
+    &-list {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 0 120px;
+    }
+    &-title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    &-link {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    &-item {
+        display: flex;
+        flex-direction: column;
+    }
+    &-social {
+        display:flex;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    &-desc {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,51 @@
+.hero {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 40px;
+    }
+    &-title {
+        font-size: 50px;
+        margin-bottom: 20px;
+        line-height: 70px;
+    }
+    &-desc {
+        margin-bottom: 50px;
+    }
+    &-content{
+        max-width: 555px;
+    }
+    &-images {
+        max-width: 50%;
+    }
+    &-bottom {
+        border: 1px solid $gray-min;
+        padding: 10px;
+        margin-top: 100px;
+        border-radius: 10px;
+        box-shadow: rgb(117 127 137 / 20%) 0px 41px 31px;
+    }
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        padding: 70px;
+    }
+    &-item:not(:last-child) {
+        border-right: 1px solid $gray-min;
+    }
+    &-icon {
+        padding-right: 35px;
+    }
+    &-span {
+        margin-top: 15px;
+        display: inline-block;
+    }
+}

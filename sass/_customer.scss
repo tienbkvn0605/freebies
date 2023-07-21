@@ -1,0 +1,38 @@
+.customer {
+    &-container {
+        text-align: center;
+    }
+    &-title {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    &-desc {
+        margin-bottom: 60px;
+    }
+    &-list {
+        display: flex;
+        align-items: center;
+        gap: 0 50px;
+    }
+    &-item {
+        border-radius: 10px;
+        border: 1px solid $gray-min;
+        padding: 30px;
+        width: 33.3%;
+        &:hover {
+            border: 1px solid $primary-color;
+        }
+    }
+    &-avatar {
+        margin-right: 20px;
+    }
+    &-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &-comment {
+        text-align: left;
+        line-height: 30px;
+    }
+}

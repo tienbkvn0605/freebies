@@ -18,3 +18,37 @@ ul {
 a {
     text-decoration: none;
 }
+.button {
+    padding: 15px 77px;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+    &-primary{
+        background-color: $primary-color;
+        font-weight: bold;
+    }
+    &-shadow {
+        box-shadow: inherit 0px 7px 29px 0px;
+    }
+}
+.text {
+    &-bold {
+        color: #0B132A;
+        font-weight: bold;
+    }
+    &-desc {
+        font-size: 16px;
+        color: #4F5665;
+        line-height: 30px;
+    }
+    &-title {
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 50px;
+        color: #0B132A;
+    }
+    &-desc {
+        max-width: 555px;
+        display: inline-block;
+    }
+}

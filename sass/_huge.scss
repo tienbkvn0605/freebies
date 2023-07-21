@@ -1,0 +1,20 @@
+.huge{
+    margin-top: 150px;
+    &-container {
+        text-align: center;
+    }
+    &-title {
+        margin-bottom: 20px;
+    }
+    &-desc {
+        margin-bottom: 150px;
+    }
+    &-company
+    {
+        &-list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

@@ -63,6 +63,40 @@ a {
   text-decoration: none;
 }
 
+.button {
+  padding: 15px 77px;
+  border-radius: 10px;
+  color: white;
+  width: fit-content;
+}
+.button-primary {
+  background-color: #F53838;
+  font-weight: bold;
+}
+.button-shadow {
+  box-shadow: inherit 0px 7px 29px 0px;
+}
+
+.text-bold {
+  color: #0B132A;
+  font-weight: bold;
+}
+.text-desc {
+  font-size: 16px;
+  color: #4F5665;
+  line-height: 30px;
+}
+.text-title {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #0B132A;
+}
+.text-desc {
+  max-width: 555px;
+  display: inline-block;
+}
+
 .header {
   padding-top: 50px;
 }
@@ -95,6 +129,231 @@ a {
 }
 .menu-link {
   color: inherit;
+}
+
+.hero {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 40px;
+}
+.hero-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 70px;
+}
+.hero-desc {
+  margin-bottom: 50px;
+}
+.hero-content {
+  max-width: 555px;
+}
+.hero-images {
+  max-width: 50%;
+}
+.hero-bottom {
+  border: 1px solid #EEEFF2;
+  padding: 10px;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: rgba(117, 127, 137, 0.2) 0px 41px 31px;
+}
+.hero-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-item {
+  display: flex;
+  align-items: center;
+  padding: 70px;
+}
+.hero-item:not(:last-child) {
+  border-right: 1px solid #EEEFF2;
+}
+.hero-icon {
+  padding-right: 35px;
+}
+.hero-span {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.feature-container {
+  display: flex;
+  align-items: center;
+  gap: 0 170px;
+}
+.feature-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.feature-desc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 427px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.feature-icon {
+  transform: translateY(10%);
+}
+
+.plan {
+  margin-top: 200px;
+}
+.plan-container {
+  padding-top: 80px;
+  text-align: center;
+}
+.plan-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.plan-list {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 50px;
+}
+.plan-item {
+  border-radius: 10px;
+  border: 1px solid #DDDDDD;
+  padding: 70px 70px 50px 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.plan-item-title {
+  margin-bottom: 30px;
+}
+.plan-item-desc {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.plan-item-desc:before {
+  content: "123";
+  background-image: url("/landing/freebies/images/jam_check.png");
+  width: 30px;
+  height: 30px;
+  width: 100%;
+}
+.plan-images {
+  margin-bottom: 30px;
+}
+
+.huge {
+  margin-top: 150px;
+}
+.huge-container {
+  text-align: center;
+}
+.huge-title {
+  margin-bottom: 20px;
+}
+.huge-desc {
+  margin-bottom: 150px;
+}
+.huge-company-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customer-container {
+  text-align: center;
+}
+.customer-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.customer-desc {
+  margin-bottom: 60px;
+}
+.customer-list {
+  display: flex;
+  align-items: center;
+  gap: 0 50px;
+}
+.customer-item {
+  border-radius: 10px;
+  border: 1px solid #EEEFF2;
+  padding: 30px;
+  width: 33.3%;
+}
+.customer-item:hover {
+  border: 1px solid #F53838;
+}
+.customer-avatar {
+  margin-right: 20px;
+}
+.customer-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.customer-comment {
+  text-align: left;
+  line-height: 30px;
+}
+
+.subscribe-container {
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  background-color: #FFFFFF;
+  transform: translateY(50%);
+}
+
+.footer {
+  margin-bottom: 80px;
+  padding-top: 250px;
+  background-color: #F8F8F8;
+}
+.footer-list {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 0 120px;
+}
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer-link {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+.footer-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+.footer-desc {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */

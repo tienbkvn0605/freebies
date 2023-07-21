@@ -1,0 +1,33 @@
+.feature {
+    &-container {
+        display: flex;
+        align-items: center;
+        gap: 0 170px;
+    }
+    &-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &-desc {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 427px;
+        display:-webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-word;
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    &-icon {
+        transform: translateY(10%);
+    }
+}
